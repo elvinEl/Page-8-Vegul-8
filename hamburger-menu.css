@@ -1,0 +1,77 @@
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .burger {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+    .nav-links {
+        position: absolute;
+        top:6vh;
+        right: 0;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        gap: 20px;
+        background-color: white;
+        transform: translateX(-100%);
+        transition: 500ms;
+        z-index: 99;
+    }
+
+    .nav-links li {
+        opacity: 0;
+        background-color:#86724C;
+        width: 90%;
+        height:80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-links li a{
+        color: white;
+        font-size: 18px;
+    }
+}
+
+.nav-active {
+    transform: translateX(0);
+}
+
+.close .line1 {
+    transform: rotate(-45deg) translate(-5px, 3px);
+    transition: .3s ease;
+}
+
+.close .line2 {
+    opacity: 0;
+}
+
+.close .line3 {
+    transform: rotate(45deg) translate(-5px, -3px);
+    transition: .3s ease;
+
+}
+
+
+@keyframes linksFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}

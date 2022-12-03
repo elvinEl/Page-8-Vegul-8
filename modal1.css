@@ -301,12 +301,7 @@
     text-decoration: none;
     list-style: none;
   }
-  .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-  }
+  
   .modal-search-nav ul{
     display: flex;
     justify-content: center;
@@ -353,20 +348,6 @@
   .search{
     margin: 3rem;
   }
-
-
-
-
-  
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-}
-
-
 .form-group {
   display: flex;
   justify-content: center;

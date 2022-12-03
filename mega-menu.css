@@ -3,6 +3,7 @@
   justify-content: center;
   margin: auto;
   width: 940px;
+  margin-top: 1rem;
 }
 .ul-reset {
   padding-left: 0;
@@ -116,13 +117,13 @@ nav > ul > li > a {
   clear: both;
 }
 
-.icon-box {
+/* .icon-box {
   display: flex;
   flex-direction: column;
   justify-content:center;
   padding-left: 12em;
   gap: 5em;
-}
+} */
 .icons i {
   margin: 0.5em;
   color: #000;
