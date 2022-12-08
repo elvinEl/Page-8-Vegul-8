@@ -64,3 +64,57 @@ sliderImageList[5].onclick = function(){
 // ===========================================================
 
 
+
+
+
+// <!-- burger menu content script -->
+ function openNav7() {
+   document.getElementById("mySidenav7").style.width = "100%";
+   document.getElementById("overlay-nav").style.display = "block";
+ }
+
+ function closeNav7() {
+   document.getElementById("mySidenav7").style.width = "0";
+   document.getElementById("overlay-nav").style.display = "none";
+ }
+
+ function openNav1() {
+   document.getElementById("mySidenav1").style.width = "100%";
+   document.getElementById("overlay-nav").style.display = "block";
+ }
+
+ function closeNav1() {
+   document.getElementById("mySidenav1").style.width = "0";
+   document.getElementById("overlay-nav").style.display = "none";
+ }
+
+ function openNav2() {
+   document.getElementById("mySidenav2").style.width = "100%";
+   document.getElementById("overlay-nav").style.display = "block";
+ }
+
+ function closeNav2() {
+   document.getElementById("mySidenav2").style.width = "0";
+   document.getElementById("overlay-nav").style.display = "none";
+ }
+
+ function openNav3() {
+   document.getElementById("mySidenav3").style.width = "100%";
+   document.getElementById("overlay-nav").style.display = "block";
+ }
+
+ function closeNav3() {
+   document.getElementById("mySidenav3").style.width = "0";
+   document.getElementById("overlay-nav").style.display = "none";
+ }
+
+ function openNav4() {
+   document.getElementById("mySidenav4").style.width = "100%";
+   document.getElementById("overlay-nav").style.display = "block";
+ }
+
+ function closeNav4() {
+   document.getElementById("mySidenav4").style.width = "0";
+   document.getElementById("overlay-nav").style.display = "none";
+ }
+

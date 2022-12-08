@@ -741,6 +741,273 @@ border: 2px solid rgba(155, 155, 155, 0.137);
 /** product title **/
 
 
+
+
+
+
+/* SIDENAV7 */
+
+/* BURGER-MENU-CONTENT----7 */
+.mobile-category{
+    padding-left: 2em;
+  }
+  
+  .sidenav7 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav7 a {
+    padding: 15px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav7 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.6rem;
+    margin-left: 50px;
+  }
+  
+  .sidenav7 h3 {
+    text-align: center;
+  }
+  
+  .btn-arrow7 {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+  }
+
+   
+/* SIDENAV1 */
+
+  .sidenav1 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav1 a {
+    padding: 15px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav1 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.6rem;
+    margin-left: 50px;
+  }
+  
+  .sidenav1 h3 {
+    text-align: center;
+  }
+  
+  .btn-arrow1 {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+  }
+
+
+
+  /* SIDENAV2 */
+
+  .sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav2 a {
+    padding: 15px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav2 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.6rem;
+    margin-left: 50px;
+  }
+  
+  .sidenav2 h3 {
+    text-align: center;
+  }
+  
+  .btn-arrow2 {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+  }
+
+
+
+  
+  /* SIDENAV3 */
+
+  .sidenav3 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav3 a {
+    padding: 15px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav3 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.6rem;
+    margin-left: 50px;
+  }
+  
+  .sidenav3 h3 {
+    text-align: center;
+  }
+  
+  .btn-arrow3 {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+  }
+
+
+
+
+
+/* SIDENAV 4 */
+  
+  .sidenav4 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav4 a {
+    padding: 15px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav4 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 1.6rem;
+    margin-left: 50px;
+  }
+  
+  .sidenav4 h3 {
+    text-align: center;
+  }
+  
+  .btn-arrow4 {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** Responsive Tablet **/
 @media (min-width: 520px) and (max-width: 1080px) {
     .container {
@@ -1001,7 +1268,7 @@ border: 2px solid rgba(155, 155, 155, 0.137);
     html,
     body {
         position: relative;
-        height: 100%;
+        /* height: 100%; */
     }
 
     .swiper {
@@ -1046,7 +1313,7 @@ border: 2px solid rgba(155, 155, 155, 0.137);
         padding: 0 !important;
         justify-content: flex-start;
         gap: 32px;
-        height: 80%;
+        height: 100%;
     }
 
     #Btn-send {
@@ -1075,6 +1342,8 @@ border: 2px solid rgba(155, 155, 155, 0.137);
     .fot-left {
         margin: 1rem auto;
     }
-
+.modal-content{
+    top: 40% !important;
+}
 
 }
